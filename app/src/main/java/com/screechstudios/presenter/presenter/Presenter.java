@@ -6,8 +6,8 @@ public class Presenter {
 
     MainView mainView;
 
-    public Presenter(MainView presenterActions) {
-        this.mainView = presenterActions;
+    public Presenter(MainView mainView) {
+        this.mainView = mainView;
     }
 
     /**
